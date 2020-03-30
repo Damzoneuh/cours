@@ -1,0 +1,79 @@
+body{
+    color: rgba(0,0,0, 0.8);
+    background-color: blue;
+    font-family: Roboto sans-serif;
+}
+
+a {
+    color: red;
+    display: block;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #ddd
+}
+
+ul {
+
+}
+
+li, ol {
+    text-decoration: none;
+    display: inline-block;
+}
+
+table , th ,tr, td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.w-50{
+    width: 50%;
+    display: block;
+}
+
+.multiple{
+    color: green;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.ml-0{
+    margin-left: 0;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.d-block{
+    display: block;
+}
+
+.fl{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.m-auto{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#uniq{
+    color: chocolate !important;
+}
+
+/**
+    on cible une classe par .maClass on cible un id par #monId
+ */

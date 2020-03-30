@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="UTF-8" >
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <h1>Titre 1</h1>
@@ -10,12 +11,17 @@
             <img src="https://shop.dev.fleuranne.fr/img/4" alt="source absolue" />
             <img src="img/tux.png" alt="source relative" />
         </p>
-        <p>
-            <a href="index.html" title="Home">Lien relatif</a>
-        </p>
-        <p>
-            <a href="https://fleuranne.fr" title="fleuranne.fr" target="_blank" >Lien absolue</a>
-        </p>
+
+            <div>
+                <div class="fl">
+                    <a href="index.html" title="Home" class="d-block w-75 m-auto" id="uniq" >Lien relatif</a>
+                </div>
+                <div class="fl">
+                    <a href="https://fleuranne.fr" class="d-block w-75 m-auto" title="fleuranne.fr" target="_blank" >Lien absolue</a>
+                </div>
+            </div>
+        <div class="clearfix"></div>
+
         <div>
             <!-- ceci est un commentaire -->
             <!-- ul = un ordonned list li = list item-->
@@ -37,8 +43,22 @@
                     Item
                 </li>
             </ol>
-
-
+            <table >
+                <tr>
+                    <td class="p-1">
+                        #
+                    </td>
+                    <td class="p-1">#1</td>
+                </tr>
+                <tr >
+                    <td class="p-1">
+                        first
+                    </td>
+                    <td class="p-1">
+                        second
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
